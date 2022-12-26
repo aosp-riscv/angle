@@ -10,7 +10,7 @@ config("libXNVCtrl_config") {
   # XextAddDisplay which will cause a failure.
   cflags = [
     "-Wno-incompatible-pointer-types-discards-qualifiers",
-    "-Wno-deprecated-non-prototype",
+    #"-Wno-deprecated-non-prototype",
   ]
 }
 

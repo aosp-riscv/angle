@@ -44,6 +44,6 @@ source_set("astcenc") {
   }
 
   if (is_clang) {
-    cflags_cc = [ "-Wno-unused-but-set-variable" ]
+    #cflags_cc = [ "-Wno-unused-but-set-variable" ]
   }
 }
